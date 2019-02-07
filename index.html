@@ -1,0 +1,57 @@
+<!DOCYTIPE>
+<html>
+	<meta charset="utf-8">
+	<title>Таблица-форма</title>
+<head>	
+	
+</head>
+<body>
+<form action="forma" method="post" id="form">
+
+
+		<table border="12">
+		<tr>
+	<td>Регистрационное имя</td> <td> <input type="text" name="Имя" size="20" placeholder="Имя" maxlength="25"> </td>
+		</tr>
+		
+		<tr>
+	<td valign="top">Пароль</td> <td> <input type="password" name="pass" size="20" placeholder="Пароль" maxlength="25"> 
+	<br>
+	<input type="password" name="pass" size="20" placeholder="Подтвердите пароль" maxlength="25">Подтвердите пароль</td>
+		</tr>
+		
+		<tr>
+	<td>Ваша специализация</td> <td> <select name="book" size="1">
+										<option value="1">Web-мастер</option>
+										<option value="2">Не Web-мастер</option>
+										<option value="3">Программист</option>
+										<option value="4">Не программист</option>
+									 </select>
+	</td>
+		</tr>
+		
+		<tr>
+	<td>Пол</td> <td> <input type="radio" name="book" value="m">Мужской <input type="radio" name="book" value="g">Женский </td>
+		</tr>
+		
+		<tr>
+	<td valign="top">Ваши навыки</td> <td> <input type="checkbox" name="1" value="yes">Знание HTML и CSS<br>
+										   <input type="checkbox" name="2" value="yes">Знание Perl<br>
+										   <input type="checkbox" name="3" value="yes">Знание ASP<br>
+										   <input type="checkbox" name="4" value="yes">Знание Adobe Photoshop<br>
+										   <input type="checkbox" name="5" value="yes">Знание JAVA<br>
+										   <input type="checkbox" name="6" value="yes">Знание JavaScript<br>
+										   <input type="checkbox" name="7" value="yes">Знание Flash<br>
+										   
+	</td>
+		</tr>
+		
+		<tr>
+	<td valign="top" width="30">Дополнитеьные сведения о себе</td> <td> <textarea name="description" cols="37" rows="6"></textarea></td>
+		</tr>
+	
+		</table> <br>
+		<input type="submit" value="Зарегестрироваться"> <input type="reset">
+	</form>
+</body>
+</html>
